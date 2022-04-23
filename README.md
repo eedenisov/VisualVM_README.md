@@ -1,6 +1,6 @@
 # Исследование JVM через VisualVM
 ## Heap:
-![heap](/Users/denisovbl/Documents/Евгений/it/Java/VisualVM/photos/heap.png)
+![heap](photos/heap.jpeg)
 ###
 1. **16:57:35** Начало загрузки io.vertx. Размер памяти heap состовляет 134МВ. Используется памяти в heap 6,5МВ.
 1. **16:57:38** Начало загрузки io.netty. Размер памяти heap состовляет 134МВ. Используется памяти в heap 6,5МВ.
@@ -13,7 +13,7 @@
 1. **16:57:53** Создано 5000000 объектов. Размер памяти heap состовляет 1536МВ. Используется памяти в heap 594МВ.
 ###
 ## Metaspace:
-![metaspace](/Users/denisovbl/Documents/Евгений/it/Java/VisualVM/photos/metaspace.png)
+![metaspace](photos/metaspace.jpeg)
 ###
 1. **16:57:35** Начало загрузки io.vertx. Размер памяти metaspace состовляет 15,3МВ. Используется памяти в metaspace 14,5МВ.
 1. **16:57:38** Начало загрузки io.netty. Размер памяти metaspace состовляет 15,3МВ. Используется памяти в metaspace 14,5МВ.
@@ -26,7 +26,7 @@
 1. **16:57:53** Создано 5000000 объектов. Размер памяти metaspace состовляет 15,9МВ. Используется памяти в metaspace 15,2МВ.
 ###
 ## Classes:
-![classes](/Users/denisovbl/Documents/Евгений/it/Java/VisualVM/photos/classes.png)
+![classes](photos/classes.jpeg)
 ###
 1. **16:57:35** Начало загрузки io.vertx. Было загружено classes 2256.
 1. **16:57:38** Начало загрузки io.netty. Было загружено classes 2256. 
